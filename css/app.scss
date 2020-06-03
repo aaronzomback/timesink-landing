@@ -1,0 +1,44 @@
+@import "reset";
+@import "typography";
+
+$primary-color: #222222;
+$copy-color: #FFFFFF;
+$body-font: "MonumentGroteskTrial-Semi-Mono";
+$body-size: 24px;
+$mq-large: 800px;
+$mq-medium: 600px;
+
+
+@mixin middle () {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin mq ($width) {
+  @media (max-width: $width) {
+  @content;
+  }
+}
+
+body {
+  background-color: $primary-color;
+  font-family: $body-font;
+  line-height: 1.5;
+  font-size: $body-size;
+  @include middle();
+  color: $copy-color;
+  min-height: 100vh
+}
+
+section {
+  width: 800px;
+@include mq($mq-medium) {
+    width: 350px;
+    font-size: 16px;
+  }
+  p {
+  margin: 24px 0 0;
+}
+}
