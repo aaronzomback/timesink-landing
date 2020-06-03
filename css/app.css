@@ -66,23 +66,24 @@ input, textarea, select {
 
 @font-face {
   font-family: "gangstergrotesk";
-  src: url(fonts/gangstergrotesk-regular.otf);
+  src: url(fonts/gangstergrotesk-regular.otf)
 }
+
 @font-face {
   font-family: "MonumentGroteskTrial";
-  src: url(fonts/MonumentGroteskTrial-Semi-Mono.woff);
+  src: url(fonts/MonumentGroteskTrial-Semi-Mono.woff)
 }
-body {
+
+body{
   background-color: #222222;
-  font-family: "MonumentGroteskTrial-Semi-Mono";
+  color: #FFFFFF;
+  font-family: "MonumentGroteskTrial";
   line-height: 1.5;
   font-size: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
-  min-height: 100vh;
 }
 
 section {
