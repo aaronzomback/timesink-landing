@@ -1,0 +1,30 @@
+{
+  "name": "timesink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronzomback/timesink.git"
+  },
+  "author": "Aaron Zomback",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronzomback/timesink/issues"
+  },
+  "homepage": "https://github.com/aaronzomback/timesink#readme"
+}
